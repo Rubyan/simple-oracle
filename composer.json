@@ -1,0 +1,21 @@
+{
+    "name": "rubyan/simple-oracle",
+    "description": "Simple class to connect to a Oracle database using OCI8",
+    "license": "MIT",
+    "keywords": ["oracle"],
+    "authors": [
+        {
+            "name": "Johan van der Kuijl",
+            "email": "jvdkuijl@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "*" 
+    },
+    "autoload": {
+        "psr-4": {
+            "Rubyan\\Oracle\\": "src"
+        }
+    }
+}
