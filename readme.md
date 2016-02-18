@@ -17,7 +17,7 @@ composer require rubyan/simple-oracle:dev-master
     $config['instance_name'] = 'xe';
     $config['charset'] = 'UTF8';
 
-    $db = new Rubyan\Oracle\Oracle($config);   
+    $db = new \Rubyan\Oracle\Oracle($config);   
     $sql = 'SELECT * FROM HR.JOBS';
     $db->execute($sql);
 ```
