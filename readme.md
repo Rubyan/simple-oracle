@@ -6,7 +6,7 @@ This is a very lightweight solution to connect to an Oracle Database using OCI8.
 
 composer require rubyan/simple-oracle:dev-master
 
-## Example usage
+## Example usage in CakePHP 3
 
 ```php
 
