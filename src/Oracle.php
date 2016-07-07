@@ -93,37 +93,3 @@ class Oracle {
     }
     
 }
-
-/*
-$db = Database::getInstance();
-//$conn = $db->getConnection(); 
-
-$sql = "SELECT NAAM_RUIMTE, STRAATNAAM, POSTCODE, PLAATSNAAM_NRG, STATIONCOMPLEX FROM BAR_GIS.MV_NRG_STATIONBEHUIZING
-WHERE 1=1
-AND BAR_GIS.MV_NRG_STATIONBEHUIZING.STATIONCOMPLEX IN(3018865, 3021839, 3004934, 3015152, 3022080, 3008248, 3008170, 9000004, 9000003, 9000002, 9000001)";
-
-$sql = "SELECT NAAM_RUIMTE, STRAATNAAM, POSTCODE, PLAATSNAAM_NRG, STATIONCOMPLEX FROM BAR_GIS.MV_NRG_STATIONBEHUIZING WHERE BAR_GIS.MV_NRG_STATIONBEHUIZING.STATIONCOMPLEX IN(3018865)";
-
-$stid = $db->query($sql);
-
-// put all in $res
-oci_fetch_all($stid, $res);
-
-echo json_encode($res);
-
- */
-/*
-var_dump($res);
-
-echo "<table border='1'>\n";
-while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
-    echo "<tr>\n";
-    foreach ($row as $item) {
-        echo "    <td>" . ($item !== null ? htmlentities($item, ENT_QUOTES) : "&nbsp;") . "</td>\n";
-    }
-    echo "</tr>\n";
-}
-echo "</table>\n";
-*/
-
- 
